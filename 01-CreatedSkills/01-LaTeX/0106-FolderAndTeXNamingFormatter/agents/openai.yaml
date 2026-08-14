@@ -1,0 +1,4 @@
+interface:
+  display_name: "格式化命名文件夹以及.tex文件"
+  short_description: "格式化命名文件夹以及.tex文件"
+  default_prompt: "Batch-rename my lecture note folders and main .tex files to match my convention: folders like ChapterN_章标题 and SectionN_标题, files like ChapterN_ScM_COURSE_标题.tex, and update % FILE: / % PATH: headers when present. Do a dry-run first and show the rename plan."

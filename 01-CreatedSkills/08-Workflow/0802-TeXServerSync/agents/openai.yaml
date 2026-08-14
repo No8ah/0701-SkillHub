@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sync TeX And Upload"
+  short_description: "Compile TeX PDFs then upload to server in a fixed order."
+  default_prompt: "Use this skill to compile TeX files first, then upload generated PDFs to the configured server."

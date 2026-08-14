@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mark Homework Subsections"
+  short_description: "Mark lecture subsections referenced by homework TOC entries."
+  default_prompt: "Use $mark-homework-subsections to mark lecture subsections referenced by homework addcontentsline entries."

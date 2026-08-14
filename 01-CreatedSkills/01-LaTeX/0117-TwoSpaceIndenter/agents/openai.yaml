@@ -1,0 +1,7 @@
+interface:
+  display_name: "往后缩进两格"
+  short_description: "重排Step并后移两层缩进"
+  default_prompt: "使用 $indent-two-levels 按 references/Example_往后缩进两格.md 的样式处理当前文本：将重复的 `\\textbf{StepN:}\\quad ...` 重排为‘父Step + 二级编号 + 三级编号(1.1/1.2)’，并把缩进提升两层。保持数学内容不变，只改结构与缩进。"
+
+policy:
+  allow_implicit_invocation: true

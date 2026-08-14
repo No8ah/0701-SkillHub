@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rigorous Math Answer"
+  short_description: "Structured definitions, sources, and proofs"
+  default_prompt: "Use $rigorous-math-answer to analyze this math problem by textbook source, prerequisite definitions, and step-by-step proof."

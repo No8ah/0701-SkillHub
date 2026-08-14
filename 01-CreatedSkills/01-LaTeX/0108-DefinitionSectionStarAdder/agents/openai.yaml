@@ -1,0 +1,7 @@
+interface:
+  display_name: "根据定义添加section并添加3 star"
+  short_description: "按定义标题自动插入 section/subsection 三星目录标题"
+  default_prompt: "使用 $add-section-3star-from-definition 按 references/Example_根据定义添加section并添加3 star.md 的格式处理文本：在 `\\customproblem{补充 - 定义/定理 - Content - ...}` 前补入 `\\clearpage`/`\\newpage` 与带 `$\\star \\star \\star$` 的 `\\subsection*` 或 `\\section*`，并同步写入 `\\addcontentsline`。"
+
+policy:
+  allow_implicit_invocation: true

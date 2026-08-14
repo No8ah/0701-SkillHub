@@ -1,0 +1,7 @@
+interface:
+  display_name: "TeX Fill Front Comments"
+  short_description: "Fill header comments in TeX files"
+  default_prompt: "Use $tex-fill-front-comments to fill the front comment header (FILE/PATH/AUTHOR/LAST MODIFIED) in a provided .tex file."
+
+policy:
+  allow_implicit_invocation: true

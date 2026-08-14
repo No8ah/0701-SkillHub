@@ -1,0 +1,4 @@
+interface:
+  display_name: "用TikZ画定义图示"
+  short_description: "在LaTeX定义块中补充TikZ图示并保持结构一致"
+  default_prompt: "读取给定定义内容，在customproblem块内添加合适的TikZ图示，保留原有格式和标签。"

@@ -1,0 +1,3 @@
+display_name: Chart Types Draw.io Reconstructor
+short_description: Rebuild chart images as draw.io assets and TeX figures
+default_prompt: Given an uploaded reference image for Chart_Types_README.tex, decide the correct chart-type folder/subfile, create missing files, verify draw.io MCP connectivity, reconstruct the image as editable .drawio XML, export PNG/PDF/SVG files beside it, and include the exported PNG in the matching TeX subfile with \\includegraphics.

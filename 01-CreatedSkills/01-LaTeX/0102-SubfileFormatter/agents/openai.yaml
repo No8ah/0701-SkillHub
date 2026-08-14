@@ -1,0 +1,4 @@
+interface:
+  display_name: "格式化Subfiles"
+  short_description: "批量规范化 LaTeX subfiles：修正父文件相对路径、补齐 begin/end document、清理重复 end."
+  default_prompt: "用 $format-subfiles 修正我提供目录内的 subfiles：统一 \\\\documentclass[..]{subfiles} 的父路径，补齐 \\\\begin{document}/\\\\end{document}，并给出 dry-run 变更清单后再写入。"

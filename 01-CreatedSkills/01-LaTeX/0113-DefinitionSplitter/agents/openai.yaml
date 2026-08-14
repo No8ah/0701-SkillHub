@@ -1,0 +1,4 @@
+interface:
+  display_name: "TeX 拆解为多部分"
+  short_description: "按Lecture6_SP.tex示例把内容拆解成N个结构化TeX部分"
+  default_prompt: "当我说“将…拆解为…个部分”时：读取指定 .tex 的源片段（通常用 文件名+Line范围 指定），按 Lecture6_SP.tex 的拆解风格把内容重排并拆成指定部分，生成对应的 LaTeX 结构（如多个 \\\\customproblem / 证明 Step / tcolorbox 等），写回目标文件；保持数学/文字含义不变，只做结构化拆解。"

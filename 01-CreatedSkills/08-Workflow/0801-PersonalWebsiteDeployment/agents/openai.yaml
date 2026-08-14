@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deploy Personal Website"
+  short_description: "Build and publish the React website"
+  default_prompt: "Use $deploy-personal-website to build and upload my personal website."

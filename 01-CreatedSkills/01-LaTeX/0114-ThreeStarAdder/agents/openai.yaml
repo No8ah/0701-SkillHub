@@ -1,0 +1,5 @@
+interface:
+  display_name: "TeX Add Star"
+  short_description: "Insert $\\star$ markers in DI TOC/title strings"
+  default_prompt: "在合适的地方添加star：参照 Chapter3_DI.tex，把目录项/标题字符串里的 `定义 -` 改为 `定义 $\\star$ -`（保留两侧空格）；不要修改 `\\label{...}` 里的内容，只改可见标题字符串与空白。"
+
