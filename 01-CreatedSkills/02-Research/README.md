@@ -7,3 +7,4 @@
 | [0203-ProblemInserter](0203-ProblemInserter/) | 题目录入 |
 | [0601-ZoteroIdentifierImporter](0601-ZoteroIdentifierImporter/) | 按标识符批量入库 Zotero（arXiv/DOI/ISBN） |
 | [0602-ZoteroInboxFiler](0602-ZoteroInboxFiler/) | Inbox 存量条目按标题-路径归档到 Zotero 目录树 |
+| [0603-ZoteroInboxNoteAdder](0603-ZoteroInboxNoteAdder/) | 为 00_Inbox 所有标题批量添加空笔记 |
