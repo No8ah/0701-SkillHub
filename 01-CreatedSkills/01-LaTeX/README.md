@@ -20,3 +20,11 @@
 | [0116-AnalogousDerivationGenerator](0116-AnalogousDerivationGenerator/) | 同理推导生成 |
 | [0117-TwoSpaceIndenter](0117-TwoSpaceIndenter/) | 缩进两格 |
 | [0118-TeXStructureCreator](0118-TeXStructureCreator/) | 创建 tex 文件及文件夹结构 |
+| [0119-EmptyReferenceNotePruner](0119-EmptyReferenceNotePruner/) | 删除空引用/注占位块 |
+| [0120-NMSDETeXFormatter](0120-NMSDETeXFormatter/) | NMSDE TeX 笔记格式化 |
+| [0121-NMSDEProblemPaster](0121-NMSDEProblemPaster/) | NMSDE 题目粘贴到 customproblem |
+| [0122-EquationEqualsBreaker](0122-EquationEqualsBreaker/) | 等号链换行格式化 |
+| [0123-TeXHyperrefFiller](0123-TeXHyperrefFiller/) | TeX hyperref 引用文本填充 |
+| [0124-DIStarMarkerInserter](0124-DIStarMarkerInserter/) | DI 风格 star 标记插入 |
+| [0125-ExerciseTOCSplitter](0125-ExerciseTOCSplitter/) | 习题目录条目拆分 |
+| [0126-DIEqualsNewlineFormatter](0126-DIEqualsNewlineFormatter/) | DI 风格长等式换行 |
