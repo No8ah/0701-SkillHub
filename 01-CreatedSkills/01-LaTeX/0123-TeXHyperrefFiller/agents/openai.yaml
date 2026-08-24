@@ -1,0 +1,4 @@
+interface:
+  display_name: "TeX Hyperref Fill"
+  short_description: "Fill LaTeX \\hyperref labels/text"
+  default_prompt: "当我说“在hyperref中填写合适的内容”或“fill hyperref”时：在给定 .tex 中定位未填写/不规范的 \\hyperref[...]{...}，用对应定义/命题处的 \\phantomsection\\label{...} 精确填入中括号，并按‘定义名称 - 数学表达式’生成绿色框链接文本（可从附近 \\addcontentsline 的最后两段提取名称与表达式），格式对齐 Chapter3_DI.tex。"
