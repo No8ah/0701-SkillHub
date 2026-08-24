@@ -1,0 +1,55 @@
+% Style excerpt copied from: Lecture/Numerical Methods for Solving Differential Equations/Chapter1/Notes/Chapter1_NMSDE.tex
+% (Used as the formatting reference for this skill.)
+
+    \customproblem{Page 3 - 定义 - Content - 局部截断误差}{
+
+        设:
+        \begin{enumerate}
+        
+            \item 数值解 - $u_{n+1} = u_n + h f(t_n, u_n)$
+            
+            \item 真实解 - $u(t)$的Taylor展开
+        
+        \end{enumerate}
+        定义:
+        \[
+            R_{n} = u(t_{n+1}) - u(t_n) - h f(t_n, u(t_n))
+            \quad \triangleq \quad
+            \text{局部截断误差}
+        \]
+        
+        其中：
+        \begin{enumerate}
+        
+            \item $u(t_{n+1})$ 是真实解在 $t_{n+1}$ 处的值
+            
+            \item $u(t_n) + h f(t_n, u(t_n))$ 是Euler法的一步近似
+            
+            \item $R_n$ 表示一步内的误差
+        
+        \end{enumerate}
+    }
+    
+    \addcontentsline{toc}{subsubsection}{Page 3 - 定义 $\star$ - Content - 局部截断误差 - $R_{n} = O(h^{p + 1})$}
+    
+    \phantomsection\label{def:<NMSDE>:<chap1>:<Page 3 - 定义 - Content - 局部截断误差>}
+    
+    \vspace{2em}
+    
+    \textbf{简明思路:}
+
+        \hspace*{2em} \textbf{Step1:}\quad 真实解 - $u(t_{n + 1})$
+
+            \hspace*{4em} 1. 在 $t_{n + 1}$处对 $t_{n}$进行 Taylor 展开 - $u(t_{n + 1}) = u(t_{n}) + h u^{'}(t_{n}) + \frac{h^{2}}{2} u^{''}(t_{n}) + \frac{h^{3}}{6} u^{'''}(\xi_{n})$
+
+            \hspace*{4em} 2. 一阶常微分方程的初值问题 - $u^{'}(t_{n}) = f(t_{n}, u(t_{n}))$
+
+        \hspace*{2em} \textbf{Step2:}\quad 数值解 - $u_{n + 1}$
+
+            \hspace*{4em} 1. (改进的)Euler法的一般递推式 - $u_{n + 1} = u_{n} + h f(t_{n}, u_{n})\ , \ n = 0, 1, \cdots, N - 1$
+
+            \hspace*{4em} 2. \colorbox{red!20}{$\displaystyle u_{n} = u(t_{n})$}
+
+        \hspace*{2em} \textbf{Step3:}\quad 局部截断误差 - $R_{n} = u(t_{n + 1}) - \left[u(t_{n}) + h f(t_{n}, u(t_{n}))\right]$
+
+        \hspace*{2em} \textbf{Step4:}\quad $R_{n} = O(h^{p + 1})$
