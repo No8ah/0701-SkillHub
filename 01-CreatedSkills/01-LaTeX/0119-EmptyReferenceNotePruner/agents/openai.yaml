@@ -1,0 +1,4 @@
+interface:
+  display_name: "TeX Prune Empty Ref/Note"
+  short_description: "Remove empty 引用/注 placeholders in .tex"
+  default_prompt: "When user says 删除没有填写内容的引用和注, remove empty \\textbf{引用:}/\\textbf{注:} placeholder blocks from the provided .tex file(s) without changing other content."
