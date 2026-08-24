@@ -1,0 +1,4 @@
+interface:
+  display_name: "NMSDE TeX Format"
+  short_description: "Format NMSDE LaTeX notes to match Chapter1_NMSDE.tex style."
+  default_prompt: "Format the provided .tex document so its definitions (and related blocks) follow the formatting conventions used in Chapter1_NMSDE.tex. Preserve math/content; change only whitespace/structure where required. Use the bundled script for safe transformations and the reference snippet as the style source."
