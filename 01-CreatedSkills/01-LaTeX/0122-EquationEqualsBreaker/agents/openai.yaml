@@ -1,0 +1,4 @@
+interface:
+  display_name: "TeX Equals Line Break"
+  short_description: "Break long equations at equals"
+  default_prompt: "Format the provided .tex so that in long equalities, each top-level = starts a new line (style like Chapter1_Sc2_NMSDE.tex). Preserve math/content; change only whitespace/newlines."
