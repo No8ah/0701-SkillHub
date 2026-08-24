@@ -1,0 +1,4 @@
+interface:
+  display_name: "TeX Equals Newline"
+  short_description: "Format long equation chains with = on new lines"
+  default_prompt: "当我说\"长等式按Chapter3_DI.tex格式补全\"或你在补全中遇到很长的等式链时：在 LaTeX 的展示公式（如 \\[ ... \\]）里，把每个顶层等号 = 单独放在一行（表达式一行、= 一行、表达式一行……），并保持 Chapter3_DI.tex 中的缩进与矩阵环境排版不变；只改换行/空白，不改数学内容。"
