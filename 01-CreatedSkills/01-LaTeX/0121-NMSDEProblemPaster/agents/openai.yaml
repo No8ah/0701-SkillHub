@@ -1,0 +1,4 @@
+interface:
+  display_name: "TeX Paste Problem (NMSDE)"
+  short_description: "Paste题目到\\customproblem并用enumerate列小问"
+  default_prompt: "当我说\"将题目粘贴到这里\"时：把我给出的题目原文填入目标 \\customproblem{...}{...} 的第二个花括号中；若题目有小问，则在 label 后用 \\begin{enumerate}...\\item...\\end{enumerate} 按 Chapter1_NMSDE_Hw.tex 的样式列出每个小问。只改排版/结构，不改数学内容。"
